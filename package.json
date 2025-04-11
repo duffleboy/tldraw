@@ -67,9 +67,9 @@
 		"i18n-upload-strings": "tsx internal/scripts/i18n-upload-strings.ts",
 		"i18n-download-strings": "tsx internal/scripts/i18n-download-strings.ts"
 	},
-	"engines": {
-		"npm": ">=7.0.0",
-		"node": "^20.0.0"
+	 "engines": {
+    "npm": ">=7.0.0",
+    "node": "20.x"
 	},
 	"packageManager": "yarn@4.7.0+sha256.293632d8a095d8ea4786eb2c5798c83c37544abed17ed31186a3ec4549a07c06",
 	"lint-staged": {
@@ -139,9 +139,5 @@
 		"purgecss": "^5.0.0",
 		"sst": "^3.10.13",
 		"svgo": "^3.3.2"
-	},
-	"engines": {
-  "node": "20.x"
-}
-
+	}
 }
